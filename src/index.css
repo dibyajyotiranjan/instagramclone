@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  
+}
+.paa{
+  background: white;
+  display: flex;
+  padding: 0 200px;
+}
+/* vbar{
+  posit
+.navbarF{
+  width: 33.3333333%;
+} */
+.navbarF{
+margin-top: 10px;
+width: 33.333333%;
+}
+.navbarFlogo img{
+ cursor: pointer;
+ object-fit: cover;
+ display: block;
+}
+ .navbarM{
+  width: 33.333333%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+.navbarSer{
+  position: relative;
+}
+.navbarS{
+  background: rgba(235, 225, 225, 0.568);
+  border: 1px solid green;
+  padding: 7px 25px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+ text-align: center;
+}
+.searchIcon{
+  position: absolute;
+  top: 8px;
+  left: 70px;
+  color: silver;
+} 
+.navbarL{
+  width: 33.33333%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbarL li{
+  display: inline-block;
+  margin: 0 10px;
+  list-style-type: none;
+  cursor: pointer;
+}
+.navbarL li:hover{ 
+ color: red;
+ border-bottom: 3px solid black;
+}
+.navI{
+  font-size: 25px;
+  color: rgb(71, 63, 63);
+}
+.navI:hover{
+  color: red;
+} 
+@media (max-width:300px){
+.paa{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+}
+@media (max-width: 500px){
+  .navbar{
+    height: 150px;
+    width: 100%;
+    position: relative;
+  }
+  .paa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: red;
+  }
+  .navbarF{
+    margin: 20px;
+    width: 30%;
+    
+    }
+    .navbarFlogo img{
+     cursor: pointer;
+    }
+     .navbarM{
+      width: 50%;
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .navbarSer{
+      position: relative;
+    }
+    .navbarS{
+      background: rgba(235, 225, 225, 0.568);
+      border: 1px solid green;
+      padding: 7px 25px;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 400;
+     text-align: center;
+    }
+    .searchIcon{
+      position: absolute;
+      top: 8px;
+      left: 70px;
+      color: silver;
+    } 
+    .navbarL{
+      width: 50%;
+      margin: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    .navbarL li{
+      display: inline-block;
+      margin: 0 10px;
+      list-style-type: none;
+      cursor: pointer;
+    }
+    .navbarL li:hover{ 
+     color: red;
+     border-bottom: 3px solid black;
+    }
+    .navI{
+      font-size: 25px;
+      color: rgb(71, 63, 63);
+    }
+    .navI:hover{
+      color: red;
+    } 
+}
+@media (max-width: 800px){
+  .paa{
+    padding: 10px;
+  }
+}
