@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/.github.io/instagramclone/static/css/main.9a180f25.chunk.css",
+    "main.js": "/.github.io/instagramclone/static/js/main.e657ccdf.chunk.js",
+    "main.js.map": "/.github.io/instagramclone/static/js/main.e657ccdf.chunk.js.map",
+    "runtime-main.js": "/.github.io/instagramclone/static/js/runtime-main.6aace4a1.js",
+    "runtime-main.js.map": "/.github.io/instagramclone/static/js/runtime-main.6aace4a1.js.map",
+    "static/js/2.cf4944b8.chunk.js": "/.github.io/instagramclone/static/js/2.cf4944b8.chunk.js",
+    "static/js/2.cf4944b8.chunk.js.map": "/.github.io/instagramclone/static/js/2.cf4944b8.chunk.js.map",
+    "static/js/3.289cc5a2.chunk.js": "/.github.io/instagramclone/static/js/3.289cc5a2.chunk.js",
+    "static/js/3.289cc5a2.chunk.js.map": "/.github.io/instagramclone/static/js/3.289cc5a2.chunk.js.map",
+    "index.html": "/.github.io/instagramclone/index.html",
+    "static/css/main.9a180f25.chunk.css.map": "/.github.io/instagramclone/static/css/main.9a180f25.chunk.css.map",
+    "static/js/2.cf4944b8.chunk.js.LICENSE.txt": "/.github.io/instagramclone/static/js/2.cf4944b8.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/.github.io/instagramclone/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6aace4a1.js",
+    "static/js/2.cf4944b8.chunk.js",
+    "static/css/main.9a180f25.chunk.css",
+    "static/js/main.e657ccdf.chunk.js"
+  ]
+}
